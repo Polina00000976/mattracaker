@@ -950,7 +950,7 @@ body {
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    font-family: 'TT_Travels_Next_Med', sans-serif;
+    font-family: 'RAYDIS', sans-serif;
     font-weight: 500;
     font-size: 32px;
     color: var(--color-black);
@@ -1642,13 +1642,13 @@ body {
 }
 
 /* 375px и меньше - Маленькие мобильные устройства */
-@media (max-width: 375px) {
+@media (max-width: 420px) {
     /* Base containers - переопределяем для маленьких экранов */
     .container {
         padding: 0 12px;
     }
     .remove-image{
-        display: block;
+       
     }
 
     .header-container {
@@ -1754,14 +1754,16 @@ body {
     }
 
     #pageimg {
-        width: 200px;
-        max-width: 75%;
+        width: 800px;
+        max-width: 100%;
+        margin-bottom: 600px;
     }
 
     .gallery-arrow-left,
     .gallery-arrow-right {
         width: 28px;
         height: 28px;
+        display: none;
     }
 
     /* Features Section */
@@ -1828,6 +1830,19 @@ body {
         min-height: 260px;
         padding: 24px 12px;
         border-radius: 24px;
+    }
+    .gallery {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 0;
+        margin-top: 60px;
+        height: 400px !important;
+        background-color: #121212;
+        background-image: url(img/факляша.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
     }
 
     .cta-title {
@@ -1896,6 +1911,7 @@ body {
         font-size: 13px;
         padding: 10px 14px;
         height: 44px;
+        width: 380px !important;
     }
 }
 
@@ -2011,7 +2027,6 @@ section#bg.cta .container {
     height: 1600px;
     margin: 0 auto;
     padding: 100px 0;
-    background: #000;
     border-radius: 50%;
     background-image: url('img/факляшбг.svg');
     background-repeat: no-repeat;
