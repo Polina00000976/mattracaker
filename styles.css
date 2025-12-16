@@ -1,5 +1,119 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=RAYDIS:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=TT+Travels+Next+Trl:wght@300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
+/* Font Face */
+@font-face {
+    font-family: 'TT_Travels_Next_Med';
+    src: url('font/TT Travels Next Trial Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
 
+/* CSS Variables */
+:root {
+    --color-black: #121212;
+    --color-bg: #faf4e4;
+    --color-purple: #DDD4FF;
+    --color-white: #ffffff;
+    --color-text-light: #ffffff;
+    --color-text-dark: #121212;
+    --color-teal: #B0F2EA;
+}
+
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'TT_Travels_Next_Trl', sans-serif;
+    background: var(--color-bg);
+    color: var(--color-text-dark);
+    line-height: 1.6;
+}
+
+/* Utility Classes */
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--color-black);
+    z-index: 1000;
+    padding: 20px 0;
+}
+
+.header-container {
+    width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo Section */
+.logo-section {
+    text-align: center;
+    padding: 100px 0 40px;
+    background: var(--color-bg);
+    margin-top: 72px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text {
+    text-align: center;
+}
+
+.logo-title {
+    font-family: 'RAYDIS', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: var(--color-black);
+    margin-bottom: -10px;
+}
+
+.logo-subtitle {
+    font-family: 'TT_Travels_Next_Med', sans-serif;
+    font-size: 20px;
+    color: var(--color-black);
+}
+
+/* Navigation */
 .nav {
     display: flex;
     gap: 0;
@@ -71,15 +185,27 @@
     padding: 0;
 }
 
+.hero-container.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
 .hero-image {
     width: 100%;
-    margin-bottom: 32px;
+    margin-bottom: 0;
 }
 
 .hero-main-image {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.hero-text {
+    text-align: center;
+    width: 100%;
 }
 
 .hero-title {
@@ -97,6 +223,12 @@
     justify-content: center;
 }
 
+.hero-buttons.flex {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
 .btn {
     display: inline-flex;
     align-items: center;
@@ -106,15 +238,15 @@
     width: 503px;
     border-radius: 24px;
     text-decoration: none;
-    font-family: 'TT_Travels_Next_Trl', sans-serif;
-    font-weight: 600;
+    font-family: 'TT_Travels_Next_Med', sans-serif;
+    font-weight: 500;
     font-size: 22.5px;
     transition: transform 0.2s;
     border: 3px solid var(--color-black);
 }
 
 .btn-primary {
-    background: var(--color-purple);
+    background: #DDD4FF;
     color: var(--color-text-dark);
 }
 
@@ -128,6 +260,13 @@
     border: 3px solid var(--color-black);
 }
 
+
+/* Container */
+.container {
+    width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+}
 
 /* Section Styles */
 .section {
@@ -354,7 +493,7 @@
     border: 1.072px solid var(--color-black);
     border-radius: 8.572px;
     padding: 8.572px 17.145px;
-    font-family: 'Helvetica_Neue', sans-serif;
+    font-family: 'TT_Travels_Next_Med', sans-serif;
     font-size: 8.572px;
     color: var(--color-text-dark);
     cursor: pointer;
@@ -453,7 +592,7 @@
     border: 1.75px solid var(--color-black);
     border-radius: 21px;
     padding: 14px;
-    font-family: 'TT_Travels_Next_Trl', sans-serif;
+    font-family: 'TT_Travels_Next_Med', sans-serif;
     font-size: 14px;
     color: var(--color-text-light);
     cursor: pointer;
@@ -472,6 +611,14 @@
 }
 
 .remove-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.remove-content.grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 60px;
@@ -520,11 +667,21 @@
     gap: 24px;
 }
 
+.features-list.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
 .feature-item {
     font-family: 'RAYDIS', sans-serif;
     font-weight: bold;
     font-size: 56px;
     text-align: center;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
 .feature-highlight {
@@ -554,6 +711,9 @@
     border: 6px solid var(--color-black);
     border-radius: 48px;
     overflow: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
 .faq-question {
@@ -565,11 +725,17 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    font-family: 'RAYDIS', sans-serif;
-    font-weight: bold;
+    font-family: 'TT_Travels_Next_Med', sans-serif;
+    font-weight: 500;
     font-size: 32px;
     color: var(--color-black);
     text-align: left;
+}
+
+.faq-question.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .faq-icon {
@@ -601,12 +767,11 @@
 
 /* CTA Section */
 .cta {
-    background: var(--color-black);
+    background: transparent;
     color: var(--color-text-light);
-    border-radius: 125px;
     margin: 60px 0;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .cta-content {
@@ -623,9 +788,17 @@
     line-height: 80px;
     margin-bottom: 40px;
     color: var(--color-white);
+    text-align: center;
+    margin-top: 400px;
 }
 
 .cta-buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.cta-buttons.flex {
     display: flex;
     gap: 16px;
     justify-content: center;
@@ -648,24 +821,30 @@
     padding: 0;
 }
 
+.footer-content.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
 .footer-brand {
     text-align: left;
 }
 
 .footer-title {
-    font-family: 'Dela_Gothic_One', sans-serif;
+    font-family: 'TT_Travels_Next_Med', sans-serif;
     font-size: 24px;
     margin-bottom: 8px;
 }
 
 .footer-subtitle {
-    font-family: 'TT_Travels_Next_Trl', sans-serif;
-    font-weight: 300;
+    font-family: 'TT_Travels_Next_Med', sans-serif;
+    font-weight: 500;
     font-size: 16px;
 }
 
 .footer-contacts {
-    font-family: 'TT_Travels_Next_Trl', sans-serif;
+    font-family: 'TT_Travels_Next_Med', sans-serif;
     font-weight: 500;
     font-size: 16px;
 }
@@ -675,8 +854,8 @@
 }
 
 .footer-copyright {
-    font-family: 'TT_Travels_Next_Trl', sans-serif;
-    font-weight: 300;
+    font-family: 'TT_Travels_Next_Med', sans-serif;
+    font-weight: 500;
     font-size: 16px;
     text-align: right;
 }
@@ -714,30 +893,23 @@
 /* 1366px (1280px рабочая область) */
 @media (max-width: 1366px) {
     .container {
-        width: 1280px;
         max-width: 1280px;
-        margin: 0 auto;
-        padding: 0;
+        padding: 0 45px;
     }
 
     .header-container {
         padding: 0 103px;
         max-width: 1273px;
-        margin: 0 auto;
     }
 
     .hero-container {
-        width: 1280px;
         max-width: 1280px;
-        margin: 0 auto;
-        padding: 0;
+        padding: 0 45px;
     }
 
     .faq-container {
-        width: 1280px;
         max-width: 1280px;
-        margin: 0 auto;
-        padding: 0;
+        padding: 0 45px;
     }
 
     .section-title {
@@ -793,20 +965,9 @@
     }
 
     .footer-content {
-        width: 1280px;
-        max-width: 1280px;
         grid-template-columns: 1fr;
         text-align: center;
-        padding: 0;
-        margin: 0 auto;
-    }
-
-    .footer-brand {
-        text-align: center;
-    }
-
-    .footer-copyright {
-        text-align: center;
+        padding: 0 45px;
     }
 }
 
@@ -1072,49 +1233,139 @@
     }
 }
 
-.gallery{
+.gallery {
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    margin-top: 60px;
     height: 1400px;
-    background-color: #121212;;
-    background-image: url(/img/факляша.svg);
+    background-color: #121212;
+    background-image: url('img/факляша.svg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
 }
-.blockphoto{
+
+.gallery.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blockphoto {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    gap: 20px;
+    margin-top: 750px;
+}
+
+.blockphoto.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     margin-top: 750px;
 }
 #pageimg{
     width: 800px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
-#arrow{
-    padding-right: 50px;
-    padding-left: 50px;
-}
-#bg {
-    background-color: #121212;
-    background-image: url('img/факляшбг.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 50%;
-    width: 1600px;
-    height: 1600px;
-    margin: 200px auto;
+
+.gallery-arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform 0.2s;
+    font-family: 'TT_Travels_Next_Med', sans-serif;
 }
 
-#bg .container {
+.gallery-arrow:hover {
+    transform: scale(1.1);
+}
+
+.gallery-arrow:active {
+    transform: scale(0.95);
+}
+
+.gallery-arrow img {
     width: 100%;
+    height: auto;
+    display: block;
 }
 
-#bg .cta-content {
-    padding: 0 160px;
+.gallery-arrow-left,
+.gallery-arrow-right {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s;
+    font-family: 'TT_Travels_Next_Med', sans-serif;
+}
+
+.gallery-arrow-left:hover,
+.gallery-arrow-right:hover {
+    transform: scale(1.1);
+}
+
+.gallery-arrow-left:active,
+.gallery-arrow-right:active {
+    transform: scale(0.95);
+}
+
+.gallery-arrow-left img,
+.gallery-arrow-right img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+section#bg.cta {
+    background: transparent;
+    margin: 60px 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#bg.cta .container {
+    width: 1600px;
+    height: 1600px;
+    margin: 0 auto;
+    padding: 100px 0;
+    background: #000;
+    border-radius: 50%;
+    background-image: url('img/факляшбг.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+section#bg.cta .container.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+section#bg.cta .cta-title {
+    color: var(--color-white);
+    margin-bottom: 0;
 }
