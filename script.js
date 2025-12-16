@@ -113,9 +113,6 @@ window.addEventListener('scroll', () => {
 });
 
 // Dynamic image updates based on screen width
-const heroImage = document.getElementById('hero-main-image');
-const whoImage = document.getElementById('who-image');
-
 const imageMap = {
     hero: {
         1920: 'img/mainpng1920.png',
@@ -146,18 +143,39 @@ function updateImages() {
     const breakpoint = getBreakpoint(width);
     
     // Update hero image
-    if (heroImage) {
+    const heroImg = document.getElementById('hero-main-image');
+    if (heroImg) {
         const heroSrc = imageMap.hero[breakpoint] || imageMap.hero[1920];
-        if (heroImage.src !== new URL(heroSrc, window.location.href).href) {
-            heroImage.src = heroSrc;
+        // Get current src and normalize it
+        let currentSrc = heroImg.getAttribute('src') || heroImg.src;
+        // Remove query parameters and hash
+        currentSrc = currentSrc.split('?')[0].split('#')[0];
+        
+        // Normalize paths for comparison
+        const normalizedCurrent = currentSrc.replace(window.location.origin, '').replace(/^\/+/, '');
+        const normalizedNew = heroSrc.replace(/^\/+/, '');
+        
+        if (normalizedCurrent !== normalizedNew) {
+            heroImg.src = heroSrc;
+            console.log('Hero image updated to:', heroSrc, 'for breakpoint:', breakpoint, 'width:', width);
         }
+    } else {
+        console.warn('Hero image element not found');
     }
     
-    // Update who image
-    if (whoImage) {
+    // Update who image (optional, may not exist)
+    const whoImg = document.getElementById('who-image');
+    if (whoImg) {
         const whoSrc = imageMap.who[breakpoint] || imageMap.who[1920];
-        if (whoImage.src !== new URL(whoSrc, window.location.href).href) {
-            whoImage.src = whoSrc;
+        let currentSrc = whoImg.getAttribute('src') || whoImg.src;
+        currentSrc = currentSrc.split('?')[0].split('#')[0];
+        
+        const normalizedCurrent = currentSrc.replace(window.location.origin, '').replace(/^\/+/, '');
+        const normalizedNew = whoSrc.replace(/^\/+/, '');
+        
+        if (normalizedCurrent !== normalizedNew) {
+            whoImg.src = whoSrc;
+            console.log('Who image updated to:', whoSrc, 'for breakpoint:', breakpoint, 'width:', width);
         }
     }
 }
@@ -165,22 +183,25 @@ function updateImages() {
 // Initialize images with retry mechanism
 function initImages() {
     let attempts = 0;
-    const maxAttempts = 5;
+    const maxAttempts = 10;
     
     function tryInit() {
         attempts++;
         const heroImg = document.getElementById('hero-main-image');
         const whoImg = document.getElementById('who-image');
         
-        if (heroImg && whoImg) {
+        if (heroImg) {
             updateImages();
+            console.log('Images initialized, current width:', window.innerWidth);
         } else if (attempts < maxAttempts) {
             setTimeout(tryInit, 100);
         } else {
-            console.error('Failed to find images after multiple attempts');
-            // Fallback to 1920px images
-            if (heroImg) heroImg.src = imageMap.hero[1920];
-            if (whoImg) whoImg.src = imageMap.who[1920];
+            console.error('Failed to find hero image after multiple attempts');
+        }
+        
+        // who-image может отсутствовать, это нормально
+        if (whoImg) {
+            updateImages();
         }
     }
     
@@ -202,30 +223,31 @@ function debounce(func, wait) {
 
 // Debounced resize handler
 const debouncedUpdateImages = debounce(updateImages, 150);
-const debouncedCheckScreenWidth = debounce(checkScreenWidth, 150);
-
-// Screen width check for redirect
-function checkScreenWidth() {
-    if (window.innerWidth <= 440) {
-        window.location.replace('index2.html');
-    }
-}
 
 // Event listeners
 document.addEventListener('DOMContentLoaded', () => {
+    // Initialize immediately
+    const width = window.innerWidth;
+    const breakpoint = getBreakpoint(width);
+    console.log('DOMContentLoaded - Width:', width, 'Breakpoint:', breakpoint);
+    
     initImages();
-    checkScreenWidth();
     initGallery();
+    
+    // Force update after a short delay to ensure images are in DOM
+    setTimeout(() => {
+        updateImages();
+    }, 100);
 });
 
 window.addEventListener('load', () => {
-    initImages();
+    console.log('Window loaded - Width:', window.innerWidth);
     updateImages();
 });
 
 window.addEventListener('resize', () => {
+    console.log('Resize event - Width:', window.innerWidth);
     debouncedUpdateImages();
-    debouncedCheckScreenWidth();
 });
 
 // Tab switching in browser card
