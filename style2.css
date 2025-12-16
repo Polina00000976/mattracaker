@@ -1,0 +1,3554 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 374px;
+  height: 6398px;
+  margin: 0 auto;
+  background: #faf4e4;
+  overflow: hidden;
+}
+.flex-row-f {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 374px;
+  height: 82px;
+  margin: 50px 0 0 0px;
+  z-index: 5;
+}
+.rectangle {
+  flex-shrink: 0;
+  position: relative;
+  width: 260px;
+  height: 82px;
+  font-size: 0px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/2H5GrF4cmm.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 5;
+}
+.faq-filter {
+  display: block;
+  position: relative;
+  height: 27px;
+  margin: 17px 0 0 16px;
+  color: #ffffff;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
+.censorship {
+  display: block;
+  position: relative;
+  height: 20px;
+  margin: 1px 0 0 16px;
+  color: #ffffff;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 8;
+}
+.rectangle-1 {
+  flex-shrink: 0;
+  position: relative;
+  width: 74px;
+  height: 82px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/4m6LGKBvFw.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+}
+.group {
+  position: relative;
+  width: 36px;
+  height: 22px;
+  margin: 30px 0 0 22px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/97qCREaAqX.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 6;
+  border-radius: 16px;
+}
+.flex-row-c {
+  position: relative;
+  width: 380.362px;
+  height: 320px;
+  margin: 20px 0 0 16px;
+  z-index: 9;
+}
+.filter-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 342px;
+  height: 320px;
+  top: 0;
+  left: calc(50% - 190.18px);
+  color: #121212;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 39.6px;
+  text-align: left;
+  z-index: 9;
+}
+.group-2 {
+  position: absolute;
+  width: 25.86%;
+  height: 16.64%;
+  top: 67.5%;
+  left: 74.14%;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/ZMRFJoESLv.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 3;
+}
+.frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative;
+  width: 344px;
+  height: 48px;
+  margin: 32px 0 0 14px;
+  padding: 3px 81px 3px 81px;
+  background: #ddd4ff;
+  border: 3px solid #121212;
+  z-index: 13;
+  border-radius: 16px;
+}
+.app-store {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 22px;
+  color: #030303;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 14;
+}
+.frame-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative;
+  width: 344px;
+  height: 48px;
+  margin: 8px 0 0 14px;
+  padding: 3px 81px 3px 81px;
+  background: #ddd4ff;
+  border: 3px solid #121212;
+  z-index: 11;
+  border-radius: 16px;
+}
+.google-play {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 21px;
+  color: #030303;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 12;
+}
+.flex-row-fa {
+  position: relative;
+  width: 340.266px;
+  height: 609px;
+  margin: 64px 0 0 17px;
+  z-index: 89;
+}
+.subtract {
+  position: absolute;
+  width: 85.96%;
+  height: 100%;
+  top: 0;
+  left: 6.69%;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/BoTrCAqmoK.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 89;
+}
+.page {
+  position: absolute;
+  width: 270.469px;
+  height: 586.955px;
+  top: 50%;
+  left: 50%;
+  background: #faf4e4;
+  transform: translate(-50.42%, -50.01%);
+  z-index: 76;
+  overflow: hidden;
+  border-radius: 33.099px;
+}
+.island {
+  position: relative;
+  width: 79.833px;
+  height: 23.423px;
+  margin: 6.927px 0 0 95.662px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/JXRk2ycL78.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 87;
+  border-radius: 22.066px;
+}
+.iphone-home-indicator {
+  position: relative;
+  width: 270.469px;
+  height: 14.481px;
+  margin: 541.677px 0 0 0px;
+  z-index: 86;
+  backdrop-filter: blur(1.379px);
+}
+.group-4 {
+  position: absolute;
+  width: 270.471px;
+  height: 37.237px;
+  top: 31.992px;
+  left: 0;
+  z-index: 77;
+}
+.time {
+  position: absolute;
+  width: 38.3%;
+  height: 37.236px;
+  top: 0;
+  left: 1.07%;
+  z-index: 79;
+}
+.time-5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 26.33%;
+  height: 40.74%;
+  top: 33.96%;
+  left: 33.18%;
+  color: #1b1d1f;
+  font-family: SF Pro Display, var(--default-font-family);
+  font-size: 11.722526550292969px;
+  font-weight: 700;
+  line-height: 15.17px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 80;
+}
+.levels {
+  position: absolute;
+  width: 38.3%;
+  height: 37.236px;
+  top: 0;
+  left: 61.7%;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/tUp75PNMs4.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 81;
+}
+.rectangle-6 {
+  position: absolute;
+  width: 99.98%;
+  height: 37.236px;
+  top: 0px;
+  left: 0;
+  z-index: 78;
+}
+.rectangle-7 {
+  position: absolute;
+  width: 248.447px;
+  height: 534.597px;
+  top: 40.684px;
+  left: 13.768px;
+  border: 1.379px solid #000000;
+  z-index: 88;
+  border-radius: 35.168px;
+}
+.group-8 {
+  position: relative;
+  width: 214.726px;
+  height: 215.703px;
+  margin: 274.878px 0 0 16.338px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/OAzL2dnzOE.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 94;
+}
+.frame-9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 5.506px;
+  position: relative;
+  width: 204.401px;
+  height: 26.179px;
+  margin: -2.138px 0 0 19.268px;
+  padding: 9.361px 13.766px 9.361px 13.766px;
+  background: #ddd4ff;
+  border: 1.101px solid #000000;
+  z-index: 95;
+  border-radius: 17.929px;
+}
+.emerge-from-debris {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 80px;
+  height: 8px;
+  color: #000000;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 8.8103666305542px;
+  font-weight: 400;
+  line-height: 7.709px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 96;
+}
+.group-a {
+  position: absolute;
+  width: 218.591px;
+  height: 87.005px;
+  top: 88.544px;
+  left: 26.205px;
+  z-index: 82;
+}
+.frame-b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 8.26px;
+  position: absolute;
+  width: 218.591px;
+  height: 87.005px;
+  top: 0;
+  left: 0;
+  z-index: 83;
+}
+.f-f {
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  min-width: 0;
+  height: 67.671px;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 82.59717559814453px;
+  font-weight: 700;
+  line-height: 10.684px;
+  text-align: center;
+  z-index: 84;
+}
+.f {
+  position: relative;
+  color: #121212;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 82.59717559814453px;
+  font-weight: 700;
+  line-height: 10.684px;
+  text-align: center;
+}
+.dash {
+  position: relative;
+  color: #121212;
+  font-family: Truculenta, var(--default-font-family);
+  font-size: 82.59717559814453px;
+  font-weight: 700;
+  line-height: 10.684px;
+  text-align: center;
+}
+.f-c {
+  position: relative;
+  color: #121212;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 82.59717559814453px;
+  font-weight: 700;
+  line-height: 10.684px;
+  text-align: center;
+}
+.page-not-found {
+  align-self: stretch;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  min-width: 0;
+  height: 9.667px;
+  color: #121212;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 12.114253997802734px;
+  font-weight: 700;
+  line-height: 9.667px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 85;
+}
+.subtract-d {
+  position: absolute;
+  width: 76.81%;
+  height: 89.3%;
+  top: 5.42%;
+  left: 0.72%;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/rtKBO9Dwhx.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 60;
+}
+.subtract-e {
+  position: absolute;
+  width: 76.81%;
+  height: 89.3%;
+  top: 5.42%;
+  left: 22.47%;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/2Nxh7a666b.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 31;
+}
+.page-f {
+  position: absolute;
+  width: 241.667px;
+  height: 524.131px;
+  top: 50%;
+  left: 50%;
+  background: #faf4e4;
+  transform: translate(-65.31%, -49.93%);
+  z-index: 47;
+  overflow: hidden;
+  border-radius: 29.517px;
+}
+.flex-row-e {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 145.332px;
+  height: 20.916px;
+  margin: 6.186px 0 0 85.475px;
+  z-index: 58;
+}
+.island-10 {
+  flex-shrink: 0;
+  position: relative;
+  width: 71.332px;
+  height: 20.916px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/1FhF46Ubrc.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 58;
+  border-radius: 19.678px;
+}
+.island-11 {
+  flex-shrink: 0;
+  position: relative;
+  width: 71.332px;
+  height: 20.916px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/BfcN4sYmPL.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 29;
+  border-radius: 19.678px;
+}
+.iphone-home-indicator-12 {
+  position: relative;
+  width: 241.667px;
+  height: 12.914px;
+  margin: 483.907px 0 0 0;
+  z-index: 57;
+  backdrop-filter: blur(1.23px);
+}
+.flex-row-da {
+  position: absolute;
+  width: 241.669px;
+  height: 485.177px;
+  top: 28.53px;
+  left: 0;
+  z-index: 92;
+}
+.group-13 {
+  position: absolute;
+  width: 241.669px;
+  height: 33.206px;
+  top: 0;
+  left: 0;
+  z-index: 48;
+}
+.time-14 {
+  position: absolute;
+  width: 38.3%;
+  height: 33.206px;
+  top: 0;
+  left: 1.07%;
+  z-index: 50;
+}
+.time-15 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 26.33%;
+  height: 40.74%;
+  top: 33.96%;
+  left: 33.18%;
+  color: #1b1d1f;
+  font-family: SF Pro Display, var(--default-font-family);
+  font-size: 10.453805923461914px;
+  font-weight: 700;
+  line-height: 13.528px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 51;
+}
+.levels-16 {
+  position: absolute;
+  width: 38.3%;
+  height: 33.206px;
+  top: 0;
+  left: 61.7%;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/WfvJGJ11xD.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 52;
+}
+.rectangle-17 {
+  position: absolute;
+  width: 99.98%;
+  height: 33.206px;
+  top: 0px;
+  left: 0;
+  z-index: 49;
+}
+.rectangle-18 {
+  position: absolute;
+  width: 221.99px;
+  height: 477.377px;
+  top: 7.8px;
+  left: 12.299px;
+  border: 1.23px solid #000000;
+  z-index: 59;
+  border-radius: 31.361px;
+}
+.rectangle-19 {
+  position: relative;
+  width: 2.46px;
+  height: 21.531px;
+  margin: 35.061px 0 0 49.402px;
+  background: #1a1c1f;
+  z-index: 32;
+  border-radius: 1.23px 0 0 1.23px;
+}
+.rectangle-1a {
+  position: relative;
+  width: 2.46px;
+  height: 39.371px;
+  margin: 20.914px 0 0 49.402px;
+  background: #1a1c1f;
+  z-index: 33;
+  border-radius: 1.23px 0 0 1.23px;
+}
+.flex-row-da-1b {
+  position: relative;
+  width: 177.139px;
+  height: 94.91px;
+  margin: 6.914px 0 0 36.898px;
+  z-index: 100;
+}
+.vector {
+  position: absolute;
+  width: 149.811px;
+  height: 93.364px;
+  top: 0;
+  left: 27.328px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/BRc0wfTgZX.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 100;
+}
+.find-together {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 109.349px;
+  height: 32.194px;
+  top: 35.417px;
+  left: 28.907px;
+  color: #0e0c0f;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 6.607775688171387px;
+  font-weight: 600;
+  line-height: 7.158px;
+  text-align: left;
+  z-index: 101;
+}
+.rectangle-1c {
+  position: absolute;
+  width: 2.46px;
+  height: 39.371px;
+  top: 4.16px;
+  left: 12.505px;
+  background: #1a1c1f;
+  z-index: 34;
+  border-radius: 1.23px 0 0 1.23px;
+}
+.vector-1d {
+  position: absolute;
+  width: 133.86px;
+  height: 83.367px;
+  top: 11.543px;
+  left: 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/KEcaOc9LVx.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 71;
+}
+.find-together-1e {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 97.705px;
+  height: 28.748px;
+  top: 31.626px;
+  left: 25.829px;
+  color: #0e0c0f;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 5.892621040344238px;
+  font-weight: 600;
+  line-height: 6.384px;
+  text-align: left;
+  z-index: 72;
+}
+.flex-row {
+  position: relative;
+  width: 110.724px;
+  height: 27.179px;
+  margin: -2.14px 0 0 86.368px;
+  z-index: 98;
+}
+.vector-1f {
+  position: absolute;
+  width: 41.101px;
+  height: 27.179px;
+  top: 0;
+  left: 33.227px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/QUfYK4KsuE.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 98;
+}
+.vector-20 {
+  position: absolute;
+  width: 36.724px;
+  height: 24.27px;
+  top: 1.745px;
+  left: 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/8U8jfA7YhE.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 69;
+}
+.vector-21 {
+  position: absolute;
+  width: 36.724px;
+  height: 24.27px;
+  top: 1.745px;
+  left: 74px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/eg4btHSXOb.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 40;
+}
+.flex-row-22 {
+  position: relative;
+  width: 191.86px;
+  height: 199.386px;
+  margin: -0.13px 0 0 14.602px;
+  z-index: 102;
+}
+.regroup {
+  position: absolute;
+  width: 99.967px;
+  height: 199.386px;
+  top: 0;
+  left: 74.564px;
+  z-index: 102;
+}
+.vector-23 {
+  position: absolute;
+  width: 25.967px;
+  height: 19.937px;
+  top: 0;
+  left: 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/6mNZgZ9scr.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 73;
+}
+.vector-24 {
+  position: absolute;
+  width: 25.967px;
+  height: 19.937px;
+  top: 0;
+  left: 74px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/1Ge5NT8L3C.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 44;
+}
+.vector-25 {
+  position: absolute;
+  width: 29.062px;
+  height: 22.327px;
+  top: 1.14px;
+  left: 33.558px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/wBHdRHaGou.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 102;
+}
+.group-26 {
+  position: absolute;
+  width: 100%;
+  height: 96.6%;
+  top: 3.4%;
+  left: 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/a9FpasOXML.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 65;
+}
+.flex-row-ce {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 90.194px;
+  height: 12.267px;
+  margin: 12.912px 0 0 76.408px;
+  z-index: 68;
+}
+.vector-27 {
+  flex-shrink: 0;
+  position: relative;
+  width: 16.194px;
+  height: 12.267px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/vVMO7WsAaq.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 68;
+}
+.vector-28 {
+  flex-shrink: 0;
+  position: relative;
+  width: 16.194px;
+  height: 12.267px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/TyhQncKQyv.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 39;
+}
+.vector-29 {
+  position: relative;
+  width: 18.124px;
+  height: 13.738px;
+  margin: -8.768px 0 0 110.185px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/uz3fuPFU2n.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 97;
+}
+.frame-2a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 4.911px;
+  position: relative;
+  width: 182.634px;
+  height: 23.377px;
+  margin: -1.911px 0 0 17.219px;
+  padding: 8.348px 12.276px 8.348px 12.276px;
+  background: #ddd4ff;
+  border: 0.98px solid #000000;
+  z-index: 66;
+  border-radius: 15.988px;
+}
+.vy-lezti-iz-debrey {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 71px;
+  height: 7px;
+  color: #000000;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 7.8568267822265625px;
+  font-weight: 400;
+  line-height: 6.875px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 67;
+}
+.rectangle-2b {
+  position: absolute;
+  width: 2.753px;
+  height: 24.112px;
+  top: 19.593px;
+  left: 7.701px;
+  background: #1a1c1f;
+  z-index: 90;
+  border-radius: 1.379px 0 0 1.379px;
+}
+.rectangle-2c {
+  position: absolute;
+  width: 2.753px;
+  height: 44.09px;
+  top: 65.748px;
+  left: 7.701px;
+  background: #1a1c1f;
+  z-index: 91;
+  border-radius: 1.379px 0 0 1.379px;
+}
+.rectangle-2d {
+  position: absolute;
+  width: 2.753px;
+  height: 44.09px;
+  top: 120.864px;
+  left: 7.701px;
+  background: #1a1c1f;
+  z-index: 92;
+  border-radius: 1.379px 0 0 1.379px;
+}
+.group-2e {
+  position: absolute;
+  width: 194.933px;
+  height: 77.589px;
+  top: 78.961px;
+  left: 23.367px;
+  z-index: 53;
+}
+.frame-2f {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 7.366px;
+  position: absolute;
+  width: 194.933px;
+  height: 77.589px;
+  top: 0;
+  left: 0;
+  z-index: 54;
+}
+.f-f-30 {
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  min-width: 0;
+  height: 60.347px;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 73.65774536132812px;
+  font-weight: 700;
+  line-height: 9.528px;
+  text-align: center;
+  z-index: 55;
+}
+.f-31 {
+  position: relative;
+  color: #121212;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 73.65774536132812px;
+  font-weight: 700;
+  line-height: 9.528px;
+  text-align: center;
+}
+.text-11 {
+  position: relative;
+  color: #121212;
+  font-family: Truculenta, var(--default-font-family);
+  font-size: 73.65774536132812px;
+  font-weight: 700;
+  line-height: 9.528px;
+  text-align: center;
+}
+.f-32 {
+  position: relative;
+  color: #121212;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 73.65774536132812px;
+  font-weight: 700;
+  line-height: 9.528px;
+  text-align: center;
+}
+.stranitsa-ne-naydena {
+  align-self: stretch;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  min-width: 0;
+  height: 8.621px;
+  color: #121212;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 10.803136825561523px;
+  font-weight: 700;
+  line-height: 8.621px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 56;
+}
+.page-33 {
+  position: absolute;
+  width: 241.667px;
+  height: 524.131px;
+  top: 50%;
+  left: 50%;
+  background: #faf4e4;
+  transform: translate(-34.69%, -49.93%);
+  z-index: 18;
+  overflow: hidden;
+  border-radius: 29.517px;
+}
+.iphone-home-indicator-34 {
+  position: relative;
+  width: 241.667px;
+  height: 12.914px;
+  margin: 511.009px 0 0 0;
+  z-index: 28;
+  backdrop-filter: blur(1.23px);
+}
+.group-35 {
+  position: absolute;
+  width: 241.669px;
+  height: 33.206px;
+  top: 28.53px;
+  left: 0;
+  z-index: 19;
+}
+.time-36 {
+  position: absolute;
+  width: 38.3%;
+  height: 33.206px;
+  top: 0;
+  left: 1.07%;
+  z-index: 21;
+}
+.time-37 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 26.33%;
+  height: 40.74%;
+  top: 33.96%;
+  left: 33.18%;
+  color: #1b1d1f;
+  font-family: SF Pro Display, var(--default-font-family);
+  font-size: 10.453805923461914px;
+  font-weight: 700;
+  line-height: 13.528px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 22;
+}
+.levels-38 {
+  position: absolute;
+  width: 38.3%;
+  height: 33.206px;
+  top: 0;
+  left: 61.7%;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/ABhOBdZB5v.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 23;
+}
+.rectangle-39 {
+  position: absolute;
+  width: 99.98%;
+  height: 33.206px;
+  top: 0px;
+  left: 0;
+  z-index: 20;
+}
+.rectangle-3a {
+  position: absolute;
+  width: 221.99px;
+  height: 477.377px;
+  top: 36.329px;
+  left: 12.299px;
+  border: 1.23px solid #000000;
+  z-index: 30;
+  border-radius: 31.361px;
+}
+.rectangle-3b {
+  position: absolute;
+  width: 2.753px;
+  height: 74.403px;
+  top: 73.26px;
+  left: 215.419px;
+  background: #1a1c1f;
+  z-index: 93;
+  border-radius: 0 2.758px 2.758px 0;
+}
+.flex-column-c {
+  position: absolute;
+  width: 86.43%;
+  height: 76.93%;
+  top: 18.81%;
+  left: 6.02%;
+  z-index: 64;
+}
+.group-3c {
+  position: relative;
+  width: 191.86px;
+  height: 192.616px;
+  margin: 154.41px 0 0 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/acBQcQx7Rt.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 36;
+}
+.frame-3d {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 4.911px;
+  position: relative;
+  width: 182.634px;
+  height: 23.377px;
+  margin: -3.14px 0 0 2.617px;
+  padding: 8.348px 12.276px 8.348px 12.276px;
+  background: #ddd4ff;
+  border: 0.98px solid #000000;
+  z-index: 37;
+  border-radius: 15.988px;
+}
+.vy-lezti-iz-debrey-3e {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 71px;
+  height: 7px;
+  color: #000000;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 7.8568267822265625px;
+  font-weight: 400;
+  line-height: 6.875px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 38;
+}
+.rectangle-3f {
+  position: absolute;
+  width: 2.46px;
+  height: 66.439px;
+  top: 0;
+  left: 150.607px;
+  background: #1a1c1f;
+  z-index: 64;
+  border-radius: 0 2.46px 2.46px 0;
+}
+.vector-40 {
+  position: absolute;
+  width: 133.86px;
+  height: 83.367px;
+  top: 41.828px;
+  left: 22.296px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/u67qBnZp7b.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 42;
+}
+.ya-by-skazal-paru-krepkih-slov {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 97.705px;
+  height: 28.748px;
+  top: 31.626px;
+  left: 25.829px;
+  color: #0e0c0f;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 5.892621040344238px;
+  font-weight: 600;
+  line-height: 6.384px;
+  text-align: left;
+  z-index: 43;
+}
+.group-41 {
+  position: absolute;
+  width: 194.933px;
+  height: 77.589px;
+  top: 78.961px;
+  left: 23.367px;
+  z-index: 24;
+}
+.frame-42 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 7.366px;
+  position: absolute;
+  width: 194.933px;
+  height: 77.589px;
+  top: 0;
+  left: 0;
+  z-index: 25;
+}
+.f-f-43 {
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  min-width: 0;
+  height: 60.347px;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 73.65774536132812px;
+  font-weight: 700;
+  line-height: 9.528px;
+  text-align: center;
+  z-index: 26;
+}
+.f-44 {
+  position: relative;
+  color: #121212;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 73.65774536132812px;
+  font-weight: 700;
+  line-height: 9.528px;
+  text-align: center;
+}
+.text-18 {
+  position: relative;
+  color: #121212;
+  font-family: Truculenta, var(--default-font-family);
+  font-size: 73.65774536132812px;
+  font-weight: 700;
+  line-height: 9.528px;
+  text-align: center;
+}
+.f-45 {
+  position: relative;
+  color: #121212;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 73.65774536132812px;
+  font-weight: 700;
+  line-height: 9.528px;
+  text-align: center;
+}
+.stranitsa-ne-naydena-46 {
+  align-self: stretch;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  min-width: 0;
+  height: 8.621px;
+  color: #121212;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 10.803136825561523px;
+  font-weight: 700;
+  line-height: 8.621px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 27;
+}
+.rectangle-47 {
+  position: absolute;
+  width: 2.46px;
+  height: 21.531px;
+  top: 114.199px;
+  left: 0;
+  background: #1a1c1f;
+  z-index: 61;
+  border-radius: 1.23px 0 0 1.23px;
+}
+.rectangle-48 {
+  position: absolute;
+  width: 2.46px;
+  height: 39.371px;
+  top: 155.415px;
+  left: 0;
+  background: #1a1c1f;
+  z-index: 62;
+  border-radius: 1.23px 0 0 1.23px;
+}
+.rectangle-49 {
+  position: absolute;
+  width: 2.46px;
+  height: 66.439px;
+  top: 170.185px;
+  left: 337.807px;
+  background: #1a1c1f;
+  z-index: 35;
+  border-radius: 0 2.46px 2.46px 0;
+}
+.rectangle-4a {
+  position: absolute;
+  width: 2.46px;
+  height: 39.371px;
+  top: 204.63px;
+  left: 0;
+  background: #1a1c1f;
+  z-index: 63;
+  border-radius: 1.23px 0 0 1.23px;
+}
+.chto-my-takoe {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 342px;
+  height: 40px;
+  margin: 64px 0 0 15px;
+  color: #121212;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 39.6px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 103;
+}
+.frame-4b {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 8px;
+  position: relative;
+  width: 342px;
+  margin: 16px 0 0 16px;
+  z-index: 104;
+}
+.group-4c {
+  flex-shrink: 0;
+  position: relative;
+  width: 342px;
+  height: 684px;
+  z-index: 105;
+}
+.rectangle-4d {
+  position: absolute;
+  width: 342px;
+  height: 684px;
+  top: 0;
+  left: 0;
+  background: #faf4e4;
+  border: 3px solid #000000;
+  z-index: 107;
+  border-radius: 27.156px;
+}
+.rectangle-4e {
+  position: absolute;
+  width: 329px;
+  height: 672px;
+  top: 6px;
+  left: 5px;
+  background: #faf4e4;
+  z-index: 106;
+  border-radius: 17.821px;
+}
+.frame-4f {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  position: absolute;
+  width: 292.779px;
+  height: 35.643px;
+  top: 21.216px;
+  left: 27.156px;
+  padding: 11.881px 11.881px 11.881px 11.881px;
+  background: #faf4e4;
+  border: 3px solid #000000;
+  z-index: 108;
+  border-radius: 13.366px;
+}
+.https-mat-tracker-main-community {
+  flex-shrink: 0;
+  position: relative;
+  width: 265px;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 10.183623313903809px;
+  font-weight: 600;
+  line-height: 14.851px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 109;
+}
+.https {
+  position: relative;
+  color: #000000;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 10.183623313903809px;
+  font-weight: 900;
+  line-height: 14.851px;
+  text-align: left;
+}
+.mat-tracker-main-community {
+  position: relative;
+  color: #000000;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 10.183623313903809px;
+  font-weight: 600;
+  line-height: 14.851px;
+  text-align: left;
+}
+.community {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 7px;
+  top: 74.68px;
+  left: 27.24px;
+  color: #000000;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 16.368301391601562px;
+  font-weight: 600;
+  line-height: 6.365px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 160;
+}
+.frame-50 {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 14.55px;
+  position: absolute;
+  width: 292.811px;
+  height: 86.879px;
+  top: 93.981px;
+  left: 27.24px;
+  z-index: 161;
+}
+.frame-51 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 5.94px;
+  position: relative;
+  width: 292.811px;
+  z-index: 162;
+}
+.frame-52 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 4.547px;
+  position: relative;
+  min-width: 0;
+  height: 58.198px;
+  padding: 14.55px 14.55px 14.55px 14.55px;
+  background: #b0f2ea;
+  border: 0.91px solid #000000;
+  z-index: 163;
+  border-radius: 7.275px;
+}
+.frame-53 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 164;
+}
+.frame-54 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 3.637px;
+  position: relative;
+  width: 145.496px;
+  height: 23.643px;
+  z-index: 165;
+}
+.update-ratings-community {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 165.956px;
+  height: 10px;
+  color: #000000;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 9.093501091003418px;
+  font-weight: 500;
+  line-height: 10px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 166;
+}
+.best-posts-only {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 151.311px;
+  height: 10px;
+  color: #000000;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 9.093501091003418px;
+  font-weight: 400;
+  line-height: 10px;
+  text-align: left;
+  white-space: nowrap;
+  opacity: 0.43;
+  z-index: 167;
+}
+.frame-55 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: -14.55px;
+  position: relative;
+  width: 72.748px;
+  height: 29.099px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/FEpO8upMXg.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 168;
+}
+.frame-56 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 7.275px;
+  position: relative;
+  width: 306.451px;
+  z-index: 169;
+}
+.frame-57 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 4.547px;
+  position: relative;
+  width: 69.111px;
+  height: 21.824px;
+  padding: 7.275px 72.293px 7.275px 72.293px;
+  background: #000000;
+  border: 0.91px solid #000000;
+  z-index: 170;
+  border-radius: 7.275px;
+}
+.posts {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 33.191px;
+  height: 7px;
+  color: #faf4e4;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 7.27479887008667px;
+  font-weight: 400;
+  line-height: 6.365px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 171;
+}
+.frame-58 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 4.547px;
+  position: relative;
+  width: 62.29px;
+  height: 21.824px;
+  padding: 7.275px 72.293px 7.275px 72.293px;
+  background: #faf4e4;
+  border: 0.91px solid #000000;
+  z-index: 172;
+  border-radius: 7.275px;
+}
+.my-posts {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 40.921px;
+  height: 7px;
+  color: #221f1f;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 7.27479887008667px;
+  font-weight: 400;
+  line-height: 6.365px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 173;
+}
+.frame-59 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 4.547px;
+  position: relative;
+  width: 68.656px;
+  height: 21.824px;
+  padding: 7.275px 72.293px 7.275px 72.293px;
+  background: #faf4e4;
+  border: 0.91px solid #000000;
+  z-index: 174;
+  border-radius: 7.275px;
+}
+.drafts {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 40.921px;
+  height: 7px;
+  color: #221f1f;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 7.27479887008667px;
+  font-weight: 400;
+  line-height: 6.365px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 175;
+}
+.frame-5a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 4.547px;
+  position: relative;
+  width: 70.929px;
+  height: 21.824px;
+  padding: 7.275px 72.293px 7.275px 72.293px;
+  background: #faf4e4;
+  border: 0.91px solid #000000;
+  z-index: 176;
+  border-radius: 7.275px;
+}
+.create-post {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 48.196px;
+  height: 7px;
+  color: #221f1f;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 7.27479887008667px;
+  font-weight: 400;
+  line-height: 6.365px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 177;
+}
+.frame-5b {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 2.84px;
+  position: absolute;
+  width: 292.779px;
+  height: 425.166px;
+  top: 185.851px;
+  left: 27.156px;
+  z-index: 112;
+}
+.group-5c {
+  flex-shrink: 0;
+  position: relative;
+  width: 279.935px;
+  height: 425.872px;
+  z-index: 113;
+}
+.frame-5d {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 6.955px;
+  position: relative;
+  width: 279.935px;
+  margin: 0 0 0 0;
+  z-index: 114;
+}
+.frame-5e {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 4.347px;
+  position: relative;
+  width: 292.567px;
+  height: 209.401px;
+  padding: 13.91px 13.91px 13.91px 13.91px;
+  background: #faf4e4;
+  border: 0.87px solid #000000;
+  z-index: 115;
+  border-radius: 6.955px;
+}
+.frame-5f {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 6.955px;
+  position: relative;
+  min-width: 0;
+  height: 181.697px;
+  z-index: 116;
+}
+.rectangle-60 {
+  flex-shrink: 0;
+  position: relative;
+  width: 264.747px;
+  height: 117.364px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/D2UXshVVes.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 117;
+  border-radius: 6.955px;
+}
+.frame-61 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 118;
+}
+.frame-62 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 3.477px;
+  position: relative;
+  width: 81.387px;
+  z-index: 119;
+}
+.ellipse {
+  flex-shrink: 0;
+  position: relative;
+  width: 13.91px;
+  height: 13.91px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/0dKB5gON4C.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 120;
+  border-radius: 50%;
+}
+.lolilalapopopo {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 7px;
+  color: #000000;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 6.954919338226318px;
+  font-weight: 400;
+  line-height: 6.086px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 121;
+}
+.frame-63 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 4.347px;
+  position: relative;
+  width: 73.461px;
+  height: 13.91px;
+  padding: 2.173px 19.995px 2.173px 19.995px;
+  background: #ddd4ff;
+  border: 0.87px solid #000000;
+  z-index: 122;
+  border-radius: 6.955px;
+}
+.popular {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 10px;
+  color: #000000;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 6.954919338226318px;
+  font-weight: 400;
+  line-height: 9.563px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 123;
+}
+.reading-home-now {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+  position: relative;
+  width: 266.026px;
+  min-height: 0;
+  color: #000000;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 8.693650245666504px;
+  font-weight: 500;
+  line-height: 9.563px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 124;
+  overflow: hidden;
+}
+.frame-64 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 125;
+}
+.november-27-2025 {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 10px;
+  color: #000000;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 6.954919338226318px;
+  font-weight: 300;
+  line-height: 9.563px;
+  text-align: left;
+  white-space: nowrap;
+  opacity: 0.45;
+  z-index: 126;
+}
+.frame-65 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 6.955px;
+  position: relative;
+  width: 67.81px;
+  opacity: 0.6;
+  z-index: 127;
+}
+.frame-66 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 3.477px;
+  position: relative;
+  width: 20.867px;
+  z-index: 128;
+}
+.vector-67 {
+  flex-shrink: 0;
+  position: relative;
+  width: 7.852px;
+  height: 7.607px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/4ju6BMsTtO.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 129;
+}
+.text-29 {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 10px;
+  color: #000000;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 8.693650245666504px;
+  font-weight: 400;
+  line-height: 9.563px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 130;
+}
+.frame-68 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 3.477px;
+  position: relative;
+  width: 16.302px;
+  z-index: 131;
+}
+.vector-69 {
+  flex-shrink: 0;
+  position: relative;
+  width: 8.477px;
+  height: 8.042px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/Z2R2TuvnGM.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 132;
+}
+.text-2a {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 10px;
+  color: #000000;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 8.693650245666504px;
+  font-weight: 400;
+  line-height: 9.563px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 133;
+}
+.frame-6a {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 3.477px;
+  position: relative;
+  width: 16.518px;
+  z-index: 134;
+}
+.vector-6b {
+  flex-shrink: 0;
+  position: relative;
+  width: 8.477px;
+  height: 8.476px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/NaovVv5TAb.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 135;
+}
+.text-2b {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 10px;
+  color: #000000;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 8.693650245666504px;
+  font-weight: 400;
+  line-height: 9.563px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 136;
+}
+.frame-6c {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 6.955px;
+  position: relative;
+  width: 279.935px;
+  margin: 7.07px 0 0 0;
+  z-index: 137;
+}
+.frame-6d {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 4.347px;
+  position: relative;
+  width: 292.567px;
+  height: 209.401px;
+  padding: 13.91px 13.91px 13.91px 13.91px;
+  background: #faf4e4;
+  border: 0.87px solid #000000;
+  z-index: 138;
+  border-radius: 6.955px;
+}
+.frame-6e {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 6.955px;
+  position: relative;
+  min-width: 0;
+  height: 181.697px;
+  z-index: 139;
+}
+.rectangle-6f {
+  flex-shrink: 0;
+  position: relative;
+  width: 264.739px;
+  height: 117.364px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/qgjd739xRP.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 140;
+  border-radius: 6.955px;
+}
+.frame-70 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 141;
+}
+.frame-71 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 3.477px;
+  position: relative;
+  width: 81.387px;
+  z-index: 142;
+}
+.ellipse-72 {
+  flex-shrink: 0;
+  position: relative;
+  width: 13.91px;
+  height: 13.91px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/KgYz7erxV5.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 143;
+  border-radius: 50%;
+}
+.lolilalapopopo-73 {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 7px;
+  color: #000000;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 6.954919338226318px;
+  font-weight: 400;
+  line-height: 6.086px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 144;
+}
+.frame-74 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 4.347px;
+  position: relative;
+  width: 73.461px;
+  height: 13.91px;
+  padding: 2.173px 19.995px 2.173px 19.995px;
+  background: #ddd4ff;
+  border: 0.87px solid #000000;
+  z-index: 145;
+  border-radius: 6.955px;
+}
+.popular-75 {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 10px;
+  color: #000000;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 6.954919338226318px;
+  font-weight: 400;
+  line-height: 9.563px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 146;
+}
+.fighting-swearing-home {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+  position: relative;
+  width: 266.026px;
+  min-height: 0;
+  color: #000000;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 8.693650245666504px;
+  font-weight: 500;
+  line-height: 9.563px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 147;
+  overflow: hidden;
+}
+.frame-76 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 148;
+}
+.november-date {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 10px;
+  color: #000000;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 6.954919338226318px;
+  font-weight: 300;
+  line-height: 9.563px;
+  text-align: left;
+  white-space: nowrap;
+  opacity: 0.45;
+  z-index: 149;
+}
+.frame-77 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 6.955px;
+  position: relative;
+  width: 67.81px;
+  opacity: 0.6;
+  z-index: 150;
+}
+.frame-78 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 3.477px;
+  position: relative;
+  width: 20.867px;
+  z-index: 151;
+}
+.vector-79 {
+  flex-shrink: 0;
+  position: relative;
+  width: 7.852px;
+  height: 7.607px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/22vGOr6Bf3.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 152;
+}
+.number-16 {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 10px;
+  color: #000000;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 8.693650245666504px;
+  font-weight: 400;
+  line-height: 9.563px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 153;
+}
+.frame-7a {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 3.477px;
+  position: relative;
+  width: 16.302px;
+  z-index: 154;
+}
+.vector-7b {
+  flex-shrink: 0;
+  position: relative;
+  width: 8.477px;
+  height: 8.042px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/fdmCnnbpZX.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 155;
+}
+.number-1 {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 10px;
+  color: #000000;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 8.693650245666504px;
+  font-weight: 400;
+  line-height: 9.563px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 156;
+}
+.frame-7c {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 3.477px;
+  position: relative;
+  width: 16.518px;
+  z-index: 157;
+}
+.vector-7d {
+  flex-shrink: 0;
+  position: relative;
+  width: 8.477px;
+  height: 8.476px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/Zdb6TqFHt1.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 158;
+}
+.number-5 {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 10px;
+  color: #000000;
+  font-family: Helvetica Neue, var(--default-font-family);
+  font-size: 8.693650245666504px;
+  font-weight: 400;
+  line-height: 9.563px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 159;
+}
+.frame-7e {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 7.426px;
+  position: absolute;
+  width: 292.779px;
+  height: 35.643px;
+  top: 627.141px;
+  left: 27.156px;
+  padding: 11.881px 26.732px 11.881px 26.732px;
+  background: #0e0c0f;
+  border: 1.485px solid #000000;
+  z-index: 110;
+  border-radius: 17.821px;
+}
+.skatertiu-dorozhka {
+  flex-shrink: 0;
+  position: relative;
+  width: 282px;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 11.88089370727539px;
+  font-weight: 600;
+  line-height: 14.851px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 111;
+}
+.all-lets-go {
+  position: relative;
+  color: #faf4e4;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 11.88089370727539px;
+  font-weight: 600;
+  line-height: 14.851px;
+  text-align: left;
+}
+.skatertiu-dorozhka-7f {
+  position: relative;
+  color: #faf4e4;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 11.88089370727539px;
+  font-weight: 600;
+  line-height: 14.851px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.rectangle-80 {
+  position: relative;
+  width: 342px;
+  height: 524px;
+  margin: 16px 0 0 16px;
+  border: 3px solid #121212;
+  z-index: 235;
+  overflow: visible auto;
+  border-radius: 32px;
+}
+.flex-row-a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 278px;
+  height: 48px;
+  margin: 32px 0 0 32px;
+  z-index: 238;
+}
+.frame-81 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 174px;
+  position: relative;
+  width: 131px;
+  height: 48px;
+  padding: 16px 16px 16px 16px;
+  background: #ddd4ff;
+  border: 3px solid #000000;
+  z-index: 236;
+  border-radius: 18px;
+}
+.about-us {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 20px;
+  color: #0e0c0f;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 237;
+}
+.frame-82 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 174px;
+  position: relative;
+  width: 131px;
+  height: 48px;
+  padding: 16px 16px 16px 16px;
+  border: 3px solid #000000;
+  z-index: 238;
+  border-radius: 18px;
+}
+.about-us-83 {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 20px;
+  color: #000000;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 239;
+}
+.rectangle-84 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 8px;
+  position: relative;
+  width: 278px;
+  margin: 35px 0 0 32px;
+  z-index: 240;
+}
+.self-aware-app {
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  min-width: 0;
+  height: 3px;
+  background: #121212;
+  z-index: 241;
+  border-radius: 16px;
+}
+.self-aware-app-85 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  width: 278px;
+  min-width: 0;
+  height: 108px;
+  color: #000000;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: left;
+  z-index: 242;
+}
+.statistics-believer {
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  min-width: 0;
+  height: 3px;
+  background: #121212;
+  z-index: 243;
+  border-radius: 16px;
+}
+.statistics-believer-86 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  width: 278px;
+  min-width: 0;
+  height: 108px;
+  color: #000000;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: left;
+  z-index: 244;
+}
+.fun-and-games {
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  min-width: 0;
+  height: 3px;
+  background: #121212;
+  z-index: 245;
+  border-radius: 16px;
+}
+.fun-and-games-87 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  width: 278px;
+  min-width: 0;
+  height: 70px;
+  color: #000000;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: left;
+  z-index: 246;
+}
+.no-swearing {
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  min-width: 0;
+  height: 3px;
+  background: #121212;
+  z-index: 247;
+  border-radius: 16px;
+}
+.flex-row-88 {
+  position: relative;
+  width: 580px;
+  height: 1814px;
+  margin: 64px 0 0 -103px;
+  z-index: 218;
+}
+.rectangle-89 {
+  position: absolute;
+  width: 374px;
+  height: 1814px;
+  top: 0;
+  left: 103px;
+  background: #121212;
+  border-radius: 59px;
+}
+.flex-row-8a {
+  position: relative;
+  width: 281px;
+  height: 40px;
+  margin: 32px 0 0 47px;
+  z-index: 187;
+}
+.no-swearing-8b {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 281px;
+  height: 40px;
+  top: 0;
+  left: calc(50% - 140.5px);
+  color: transparent;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 39.6px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 178;
+  -webkit-text-stroke: 1px #faf4e4;
+}
+.vector-8c {
+  position: absolute;
+  width: 27.449px;
+  height: 27.82px;
+  top: -3.619px;
+  left: 147.685px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/QD0XV0umfh.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 179;
+}
+.vector-8d {
+  position: absolute;
+  width: 23.625px;
+  height: 25.65px;
+  top: -0.28px;
+  left: 166.507px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/tbB0dOSPeG.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 180;
+}
+.vector-8e {
+  position: absolute;
+  width: 11.48px;
+  height: 28.242px;
+  top: 2.608px;
+  left: 215.712px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/4GQtJFGiiV.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 182;
+}
+.vector-8f {
+  position: absolute;
+  width: 11.543px;
+  height: 26.318px;
+  top: 3.506px;
+  left: 241.938px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/PSVvzOM05H.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 185;
+}
+.vector-90 {
+  position: absolute;
+  width: 29.606px;
+  height: 27.692px;
+  top: 3.053px;
+  left: 246.012px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/NsMcBLC1fn.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 186;
+}
+.vector-91 {
+  position: absolute;
+  width: 18.641px;
+  height: 19.11px;
+  top: 1.589px;
+  left: 222.643px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/ov95hzwuup.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 183;
+}
+.vector-92 {
+  position: absolute;
+  width: 10.178px;
+  height: 20.993px;
+  top: 8px;
+  left: 269.913px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/ftMCTv9yOS.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 187;
+}
+.vector-93 {
+  position: absolute;
+  width: 11.555px;
+  height: 15.507px;
+  top: 16.595px;
+  left: 163.945px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/Ao6c47jrL7.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 181;
+}
+.vector-94 {
+  position: absolute;
+  width: 17.76px;
+  height: 16.304px;
+  top: 16.493px;
+  left: 222.445px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/5yxn29aRFY.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 184;
+}
+.self-improvement {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 341px;
+  height: 93px;
+  margin: 8px 0 0 17px;
+  color: #b0f2ea;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  text-align: center;
+  z-index: 188;
+}
+.image {
+  position: relative;
+  width: 319px;
+  height: 356px;
+  margin: 16px 0 0 28px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/FUMjmwzj0N.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 1;
+}
+.frame-95 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 16px;
+  position: relative;
+  width: 342px;
+  margin: 22px 0 0 16px;
+  z-index: 189;
+}
+.fact-filter {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  width: 342px;
+  min-width: 0;
+  height: 75px;
+  color: #ffffff;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 190;
+  overflow: hidden;
+}
+.record-facts {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  width: 342px;
+  min-width: 0;
+  height: 64px;
+  color: #ffffff;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  z-index: 191;
+}
+.statistics-and-prizes {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  width: 342px;
+  min-width: 0;
+  height: 64px;
+  color: #ffffff;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  z-index: 192;
+}
+.frame-96 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative;
+  width: 342px;
+  height: 48px;
+  margin: 32px 0 0 16px;
+  padding: 3px 81px 3px 81px;
+  background: #ddd4ff;
+  border: 3px solid #121212;
+  z-index: 193;
+  border-radius: 16px;
+}
+.learn-more {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 21px;
+  color: #030303;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 194;
+}
+.flex-row-d {
+  position: relative;
+  width: 342px;
+  height: 382px;
+  margin: 64px 0 0 16px;
+  z-index: 204;
+}
+.group-97 {
+  position: absolute;
+  width: 60.23%;
+  height: 97.76%;
+  top: 0;
+  left: 14.04%;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/LXWQ0LB9Gi.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 2;
+}
+.vector-98 {
+  position: relative;
+  width: 35.561px;
+  height: 29.447px;
+  margin: 62.522px 0 0 156.115px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/hp8KsYgDBN.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 203;
+}
+.vector-99 {
+  position: relative;
+  width: 23.902px;
+  height: 19.45px;
+  margin: -7.979px 0 0 147.648px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/aWkLYYMTwa.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 205;
+}
+.vector-9a {
+  position: relative;
+  width: 14.177px;
+  height: 10.361px;
+  margin: -1.461px 0 0 140.006px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/J6hRwQ64Ys.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 202;
+}
+.vector-9b {
+  position: relative;
+  width: 32.473px;
+  height: 11.442px;
+  margin: 36.757px 0 0 83.165px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/YTVBvR4yHk.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 201;
+}
+.flex-row-bfc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 72.709px;
+  height: 24.536px;
+  margin: -7.54px 0 0 25px;
+  z-index: 200;
+}
+.vector-9c {
+  flex-shrink: 0;
+  position: relative;
+  width: 40.676px;
+  height: 27.376px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/CBEGLr0UNH.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 199;
+}
+.vector-9d {
+  flex-shrink: 0;
+  position: relative;
+  width: 11.891px;
+  height: 23.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/SeZK3y4faf.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 200;
+}
+.flex-row-9e {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 164px;
+  height: 8px;
+  margin: 175.464px 0 0 41px;
+  z-index: 208;
+}
+.rectangle-9f {
+  flex-shrink: 0;
+  position: relative;
+  width: 78px;
+  height: 8px;
+  border: 2px solid #faf4e4;
+  z-index: 207;
+  border-radius: 29px;
+}
+.rectangle-a0 {
+  flex-shrink: 0;
+  position: relative;
+  width: 78px;
+  height: 8px;
+  border: 2px solid #faf4e4;
+  z-index: 208;
+  border-radius: 29px;
+}
+.group-a1 {
+  position: absolute;
+  width: 123.414px;
+  height: 74.098px;
+  top: 13px;
+  left: 218.586px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/Z7tXtvBXMm.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 204;
+}
+.rectangle-a2 {
+  position: absolute;
+  width: 342px;
+  height: 235px;
+  top: 147px;
+  left: 0;
+  font-size: 0px;
+  background: #121212;
+  z-index: 195;
+  border-radius: 16px;
+}
+.fact-show {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 211px;
+  height: 30px;
+  margin: 5px 0 0 65px;
+  color: transparent;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 198;
+  -webkit-text-stroke: 1px #faf4e4;
+}
+.group-a3 {
+  position: relative;
+  width: 249px;
+  height: 139px;
+  margin: 16px 0 0 46px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/0k7XcfkwLB.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 197;
+}
+.flex-row-ab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 336px;
+  height: 8px;
+  margin: 16px 0 0 3px;
+  z-index: 209;
+}
+.rectangle-a4 {
+  flex-shrink: 0;
+  position: relative;
+  width: 78px;
+  height: 8px;
+  background: #ddd4ff;
+  z-index: 206;
+  border-radius: 29px;
+}
+.rectangle-a5 {
+  flex-shrink: 0;
+  position: relative;
+  width: 78px;
+  height: 8px;
+  border: 2px solid #faf4e4;
+  z-index: 209;
+  border-radius: 29px;
+}
+.flex-row-a6 {
+  position: relative;
+  width: 342px;
+  height: 80px;
+  margin: 43px 0 0 16px;
+  z-index: 213;
+  overflow: visible auto;
+}
+.vector-a7 {
+  position: relative;
+  width: 30.354px;
+  height: 10.695px;
+  margin: 1.288px 0 0 284.315px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/QLgahvcLMD.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 213;
+}
+.fact-fact-chips {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 342px;
+  height: 80px;
+  top: 0;
+  left: calc(50% - 171px);
+  color: transparent;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 39.6px;
+  text-align: center;
+  z-index: 210;
+  -webkit-text-stroke: 1px #ffffff;
+}
+.vector-a8 {
+  position: absolute;
+  width: 11.115px;
+  height: 21.646px;
+  top: 5.462px;
+  left: 292.353px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/1BYv7wSqNq.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 212;
+}
+.vector-a9 {
+  position: absolute;
+  width: 38.022px;
+  height: 25.59px;
+  top: 3.759px;
+  left: 220.449px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/x4drCKxs1T.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 211;
+}
+.ai-coach {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 124px;
+  height: 29px;
+  margin: 86px 0 0 125px;
+  color: transparent;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 28.6px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 215;
+  -webkit-text-stroke: 1px #ffffff;
+}
+.community-aa {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 211px;
+  height: 29px;
+  margin: 25px 0 0 82px;
+  color: transparent;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 28.6px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 216;
+  -webkit-text-stroke: 1px #ffffff;
+}
+.gamification {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 263px;
+  height: 29px;
+  margin: 25px 0 0 55.5px;
+  color: #faf4e4;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 28.6px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 217;
+}
+.dark-theme {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 223px;
+  height: 29px;
+  margin: 79px 0 0 75.5px;
+  color: transparent;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 28.6px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 219;
+  -webkit-text-stroke: 1px #ffffff;
+}
+.tracker {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 580px;
+  height: 29px;
+  top: 1483px;
+  left: 0;
+  color: transparent;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 28.6px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 214;
+  -webkit-text-stroke: 1px #ffffff;
+}
+.video {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 405px;
+  height: 29px;
+  top: 1699px;
+  left: 87.5px;
+  color: transparent;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 28.6px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 218;
+  -webkit-text-stroke: 1px #ffffff;
+}
+.faq {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 251px;
+  height: 40px;
+  margin: 64px 0 0 61px;
+  color: #121212;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 39.6px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 233;
+}
+.frame-ab {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 8px;
+  position: relative;
+  width: 342px;
+  margin: 32px 0 0 16px;
+  z-index: 220;
+}
+.frame-ac {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  min-width: 0;
+  padding: 32px 32px 32px 32px;
+  background: #ddd4ff;
+  border: 3px solid #121212;
+  z-index: 221;
+  border-radius: 16px;
+}
+.why-fact-filter {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  width: 197px;
+  height: 36px;
+  color: #121212;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17.6px;
+  text-align: left;
+  z-index: 222;
+}
+.group-ad {
+  flex-shrink: 0;
+  position: relative;
+  width: 36px;
+  height: 36px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/2Nr8Z3z1Ay.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 223;
+  border-radius: 48px;
+}
+.frame-ae {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  min-width: 0;
+  padding: 32px 32px 32px 32px;
+  background: #ddd4ff;
+  border: 3px solid #121212;
+  z-index: 224;
+  border-radius: 16px;
+}
+.swear-too-much {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  width: 214px;
+  height: 54px;
+  color: #121212;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17.6px;
+  text-align: left;
+  z-index: 225;
+}
+.group-af {
+  flex-shrink: 0;
+  position: relative;
+  width: 36px;
+  height: 36px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/VgDCRNqvjn.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 226;
+  border-radius: 48px;
+}
+.can-compete {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  min-width: 0;
+  padding: 32px 32px 32px 32px;
+  background: #ddd4ff;
+  border: 3px solid #121212;
+  z-index: 227;
+  border-radius: 16px;
+}
+.group-b0 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  width: 229px;
+  height: 72px;
+  color: #121212;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17.6px;
+  text-align: left;
+  z-index: 228;
+}
+.data-security {
+  flex-shrink: 0;
+  position: relative;
+  width: 36px;
+  height: 36px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/P1vicWvi3i.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 229;
+  border-radius: 48px;
+}
+.group-b1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  min-width: 0;
+  padding: 32px 32px 32px 32px;
+  background: #ddd4ff;
+  border: 3px solid #121212;
+  z-index: 230;
+  border-radius: 16px;
+}
+.data-security-b2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  width: 229px;
+  height: 36px;
+  color: #121212;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17.6px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 231;
+  overflow: hidden;
+}
+.group-b3 {
+  flex-shrink: 0;
+  position: relative;
+  width: 36px;
+  height: 36px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/vOGyHXWvFu.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 232;
+  border-radius: 48px;
+}
+.vector-b4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  position: relative;
+  width: 255px;
+  height: 77.325px;
+  margin: 125px 0 0 59px;
+  z-index: 252;
+}
+.vector-b5 {
+  flex-shrink: 0;
+  position: relative;
+  width: 43.457px;
+  height: 77.325px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/FUKtFDorBv.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 253;
+}
+.group-b6 {
+  flex-shrink: 0;
+  position: relative;
+  width: 43.457px;
+  height: 77.325px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/4KT2oZWR8Z.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 254;
+}
+.fact-gopnik {
+  position: relative;
+  width: 199.935px;
+  height: 104.693px;
+  margin: 20.888px 0 0 83.709px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/C4i8VRgKYJ.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 251;
+}
+.fact-gopnik-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 161px;
+  height: 40px;
+  margin: 33.094px 0 0 113px;
+  color: #ffffff;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  white-space: nowrap;
+  opacity: 0.14;
+  z-index: 255;
+}
+.frame-b7 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 342px;
+  height: 192px;
+  margin: 32px 0 0 16px;
+  color: #fcfcfc;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  z-index: 249;
+}
+.frame-b8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 16px;
+  position: relative;
+  width: 342px;
+  margin: 32px 0 0 16px;
+  z-index: 256;
+}
+.app-store-b9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  min-width: 0;
+  height: 48.361px;
+  padding: 3px 81px 3px 81px;
+  background: #ddd4ff;
+  z-index: 257;
+  border-radius: 16px;
+}
+.frame-ba {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 22px;
+  color: #121212;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 258;
+}
+.google-play-bb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  min-width: 0;
+  height: 48.361px;
+  padding: 3px 81px 3px 81px;
+  background: #ddd4ff;
+  z-index: 259;
+  border-radius: 16px;
+}
+.rectangle-bc {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 21px;
+  color: #121212;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 260;
+}
+.fact-filter-bd {
+  position: relative;
+  width: 374px;
+  height: 355px;
+  margin: 156.277px 0 0 0;
+  font-size: 0px;
+  background: #121212;
+  z-index: 262;
+  overflow: visible auto;
+  border-radius: 24px 24px 0 0;
+}
+.censorship-be {
+  display: block;
+  position: relative;
+  height: 27px;
+  margin: 32px 0 0 16px;
+  color: #ffffff;
+  font-family: RAYDIS, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 265;
+}
+.contact-info {
+  display: block;
+  position: relative;
+  height: 20px;
+  margin: 1px 0 0 16px;
+  color: #ffffff;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 266;
+}
+.contact-info-bf {
+  display: block;
+  position: relative;
+  height: 20px;
+  margin: 64px 0 0 18px;
+  color: #ffffff;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 269;
+}
+.contact-info-c0 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 342px;
+  height: 53px;
+  margin: 52px 0 0 18px;
+  color: #ffffff;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  z-index: 271;
+}
+.copyright {
+  display: block;
+  position: relative;
+  height: 18px;
+  margin: 16px 0 0 16px;
+  color: #ffffff;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 267;
+}
+.copyright-c1 {
+  display: block;
+  position: relative;
+  height: 16px;
+  margin: 4px 0 0 16px;
+  color: #ffffff;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 268;
+}
+.frame-c2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 4px;
+  position: absolute;
+  width: 100.899px;
+  height: 38px;
+  top: 175px;
+  left: 192.83px;
+  padding: 0 0 0 0;
+  z-index: 264;
+}
+.contact-info-c3 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  top: 180px;
+  left: 18px;
+  color: #ffffff;
+  font-family: TT Travels Next Trl, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 270;
+}
+.ellipse-c4 {
+  position: absolute;
+  width: 796px;
+  height: 798px;
+  top: 5181px;
+  left: -211px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-12-16/cdy2SeTfbS.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 248;
+}

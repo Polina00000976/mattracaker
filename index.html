@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ФакФильтр — Трекер мата</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-container flex">
+      <div class="nav">
+        <a href="#about" class="nav-link">О нас</a>
+        <a href="#remove-swears" class="nav-link">Как это работает</a>
+        <a href="#features" class="nav-link">Фишки</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#contacts" class="nav-link">Контакты</a>
+      </div>
+
+      <button class="mobile-menu-btn" aria-label="Меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Logo Section (under header) -->
+  <div class="logo-section">
+    <div class="logo-container flex">
+      <div class="logo-text">
+        <h1 class="logo-title">ФАК ФИЛЬТР</h1>
+        <p class="logo-subtitle">тут царит цензура</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-container flex">
+      <div class="hero-image">
+        <img src="img/mainpng1920.png" alt="Главная страница" class="hero-main-image" id="hero-main-image" loading="eager">
+      </div>
+      <div class="hero-text">
+        <h2 class="hero-title">Фильтруем твой словесный поток — пусть соседи удивятся, а мама не краснеет!</h2>
+        <div class="hero-buttons flex">
+          <a href="#" class="btn btn-primary">AppStore</a>
+          <a href="#" class="btn btn-primary">GooglePlay</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What We Are Section -->
+  <section id="about" class="section what-we-are">
+    <div class="container">
+      <!-- контент про «кто мы» по желанию -->
+    </div>
+  </section>
+
+  <!-- Remove Swear Words Section -->
+  <section id="remove-swears" class="section remove-swears">
+    <div class="container">
+      <h2 class="section-title-large">убери мат</h2>
+      <p class="section-subtitle">Чем > ты работаешь над собой – тем < ты материшься</p>
+
+      <div class="remove-content grid">
+        <div class="remove-text">
+          <p>
+            "Фак-Фильтр" — трекер мата,<br>
+            который превращает крепкие слова<br>
+            в игру, достижения и повод для улыбки.<br><br>
+            Записывай свои "факи", соревнуйся<br>
+            с друзьями и удивляй всех<br>
+            культурной речью!<br><br>
+            Твоя статистика, призы за самоконтроль,<br>
+            хорошее настроение —<br>
+            всё в одном приложении!
+          </p>
+          <a href="#" class="btn btn-secondary">Подробнее</a>
+        </div>
+
+        <div class="remove-image">
+          <img style="width: 460px;" src="img/phone1920.png" alt="Фак-Фильтр">
+        </div>
+      </div>
+
+      <div class="gallery flex">
+        <div class="blockphoto flex">
+          <button class="gallery-arrow gallery-arrow-left" aria-label="Предыдущий экран">
+            <img src="img/leftarrow.svg" alt="Предыдущий экран">
+          </button>
+
+          <img id="pageimg" src="img/page1.png" alt="Экран приложения">
+
+          <button class="gallery-arrow gallery-arrow-right" aria-label="Следующий экран">
+            <img src="img/rightarrow.svg" alt="Следующий экран">
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="section features">
+    <div class="container">
+      <h2 class="section-title-large">5 фишек фак-фака</h2>
+      <div class="features-list flex">
+        <div class="feature-item" style="opacity: 0; transform: translateY(20px); transition: opacity 0.6s, transform 0.6s;">Трекер</div>
+        <div class="feature-item" style="opacity: 0; transform: translateY(20px); transition: opacity 0.6s, transform 0.6s;">AI-коуч</div>
+        <div class="feature-item" style="opacity: 0; transform: translateY(20px); transition: opacity 0.6s, transform 0.6s;">Сообщество</div>
+        <div class="feature-item feature-highlight" style="opacity: 0; transform: translateY(20px); transition: opacity 0.6s, transform 0.6s;">Геймификация</div>
+        <div class="feature-item" style="opacity: 0; transform: translateY(20px); transition: opacity 0.6s, transform 0.6s;">Тёмная тема</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="section faq">
+    <div class="faq-container">
+      <h2 class="section-title-large">FAQ</h2>
+      <div class="faq-list">
+        <div class="faq-item" style="opacity: 0; transform: translateY(20px); transition: opacity 0.6s, transform 0.6s;">
+          <button class="faq-question flex">
+            <span>Зачем нужен Фак-Фильтр?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>"Фак-Фильтр помогает отслеживать использование мата и превращает это в игру с достижениями и соревнованиями."</p>
+          </div>
+        </div>
+
+        <div class="faq-item" style="opacity: 0; transform: translateY(20px); transition: opacity 0.6s, transform 0.6s;">
+          <button class="faq-question flex">
+            <span>Я ругаюсь слишком часто, это критично?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>"Нет, это не критично! Приложение создано для того, чтобы помочь вам контролировать речь в игровой форме, без осуждения."</p>
+          </div>
+        </div>
+
+        <div class="faq-item" style="opacity: 0; transform: translateY(20px); transition: opacity 0.6s, transform 0.6s;">
+          <button class="faq-question flex">
+            <span>Смогу ли я соревноваться с коллегами или одногруппниками?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>"Да, вы можете создавать комнаты и соревноваться с друзьями и коллегами в чистоте речи."</p>
+          </div>
+        </div>
+
+        <div class="faq-item" style="opacity: 0; transform: translateY(20px); transition: opacity 0.6s, transform 0.6s;">
+          <button class="faq-question flex">
+            <span>Мои данные в безопасности?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>"Да, все ваши данные защищены и хранятся в безопасности. Мы серьёзно относимся к конфиденциальности пользователей."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section id="bg" class="section cta">
+    <div class="container flex">
+      <h2 class="cta-title">«Фак-фильтр» твой внутренний гопник заговорит как профессор!</h2>
+      <div class="cta-buttons flex">
+        <a href="#" class="btn btn-primary">AppStore</a>
+        <a href="#" class="btn btn-primary">GooglePlay</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contacts" class="footer">
+    <div class="container">
+      <div class="footer-content grid">
+        <div class="footer-brand">
+          <h3 class="footer-title">ФАК ФИЛЬТР</h3>
+          <p class="footer-subtitle">тут царит цензура</p>
+        </div>
+        <div class="footer-contacts">
+          <p>ТЕЛ: +7(932) -123 -21-10</p>
+          <p>ПОЧТА: +7(932) -123 -21-10</p>
+          <p>Г. САНКТ-ПЕТЕРБУРГ УЛ. ПУШКИНА Д. 10</p>
+        </div>
+        <div class="footer-copyright">
+          <p>Все права защищены</p>
+          <p>©2025 burmi</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <!-- live-server код можно удалить в продакшене -->
+  <script>
+  // <![CDATA[  <-- For SVG support
+  if ('WebSocket' in window) {
+    (function () {
+      function refreshCSS() {
+        var sheets = [].slice.call(document.getElementsByTagName("link"));
+        var head = document.getElementsByTagName("head")[0];
+        for (var i = 0; i < sheets.length; ++i) {
+          var elem = sheets[i];
+          var parent = elem.parentElement || head;
+          parent.removeChild(elem);
+          var rel = elem.rel;
+          if (elem.href && typeof rel == "string" && rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+          }
+          parent.appendChild(elem);
+        }
+      }
+      var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+      var address = protocol + window.location.host + window.location.pathname + '/ws';
+      var socket = new WebSocket(address);
+      socket.onmessage = function (msg) {
+        if (msg.data == 'reload') window.location.reload();
+        else if (msg.data == 'refreshcss') refreshCSS();
+      };
+      if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+        console.log('Live reload enabled.');
+        sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+      }
+    })();
+  } else {
+    console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+  }
+  // ]]>
+  </script>
+
+</body>
+</html>
