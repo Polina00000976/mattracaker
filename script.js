@@ -1,3 +1,40 @@
+// Loading Screen
+function initLoadingScreen() {
+    const loadingScreen = document.getElementById('loadingScreen');
+    const progressBar = document.getElementById('loadingProgressBar');
+    
+    if (!loadingScreen || !progressBar) return;
+    
+    let progress = 0;
+    const duration = 5000; // 5 seconds
+    const interval = 50; // Update every 50ms
+    const increment = 100 / (duration / interval);
+    
+    const progressInterval = setInterval(() => {
+        progress += increment;
+        if (progress >= 100) {
+            progress = 100;
+            clearInterval(progressInterval);
+            
+            // Hide loading screen after completion
+            setTimeout(() => {
+                loadingScreen.classList.add('hidden');
+                setTimeout(() => {
+                    loadingScreen.style.display = 'none';
+                }, 500);
+            }, 300);
+        }
+        progressBar.style.width = progress + '%';
+    }, interval);
+}
+
+// Initialize loading screen immediately
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initLoadingScreen);
+} else {
+    initLoadingScreen();
+}
+
 // Mobile menu toggle
 const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
 const nav = document.querySelector('.nav');
@@ -331,4 +368,83 @@ function updateActiveNavLink() {
 }
 
 window.addEventListener('scroll', debounce(updateActiveNavLink, 100));
+
+// Custom Cursor with Trail Effect (Desktop only)
+function initCustomCursor() {
+    if (window.innerWidth <= 834) {
+        return; // Don't initialize on mobile
+    }
+    const cursor = document.createElement('div');
+    cursor.className = 'custom-cursor';
+    document.body.appendChild(cursor);
+
+    const trails = [];
+    let trailCount = 0;
+    const maxTrails = 10;
+
+    document.addEventListener('mousemove', (e) => {
+        // Update cursor position
+        cursor.style.left = e.clientX + 'px';
+        cursor.style.top = e.clientY + 'px';
+
+        // Create trail
+        if (trailCount % 3 === 0) { // Create trail every 3rd movement for performance
+            const trail = document.createElement('div');
+            trail.className = 'cursor-trail';
+            trail.style.left = e.clientX + 'px';
+            trail.style.top = e.clientY + 'px';
+            document.body.appendChild(trail);
+
+            trails.push(trail);
+
+            // Remove trail after animation
+            setTimeout(() => {
+                if (trail.parentNode) {
+                    trail.parentNode.removeChild(trail);
+                }
+                const index = trails.indexOf(trail);
+                if (index > -1) {
+                    trails.splice(index, 1);
+                }
+            }, 500);
+
+            // Limit number of trails
+            if (trails.length > maxTrails) {
+                const oldTrail = trails.shift();
+                if (oldTrail && oldTrail.parentNode) {
+                    oldTrail.parentNode.removeChild(oldTrail);
+                }
+            }
+        }
+        trailCount++;
+    });
+
+    // Cursor hover effects
+    const interactiveElements = document.querySelectorAll('a, button, .btn, .faq-question, .gallery-arrow');
+    interactiveElements.forEach(el => {
+        el.addEventListener('mouseenter', () => {
+            cursor.style.transform = 'translate(-50%, -50%) scale(1.5)';
+            cursor.style.background = 'radial-gradient(circle, rgba(176, 242, 234, 0.9) 0%, rgba(221, 212, 255, 0.6) 100%)';
+        });
+        el.addEventListener('mouseleave', () => {
+            cursor.style.transform = 'translate(-50%, -50%) scale(1)';
+            cursor.style.background = 'radial-gradient(circle, rgba(221, 212, 255, 0.9) 0%, rgba(176, 242, 234, 0.6) 100%)';
+        });
+    });
+}
+
+// Initialize custom cursor
+document.addEventListener('DOMContentLoaded', () => {
+    initCustomCursor();
+});
+
+// Re-check on resize
+window.addEventListener('resize', () => {
+    const cursor = document.querySelector('.custom-cursor');
+    if (window.innerWidth <= 834 && cursor) {
+        cursor.remove();
+    } else if (window.innerWidth > 834 && !cursor) {
+        initCustomCursor();
+    }
+});
 
