@@ -115,18 +115,18 @@ window.addEventListener('scroll', () => {
 // Dynamic image updates based on screen width
 const imageMap = {
     hero: {
-        1920: 'img/mainpng1920.png',
-        1366: 'img/mainpng1366.png',
-        1194: 'img/mainpng1194.png',
-        834: 'img/mainpng834.png',
-        375: 'img/mainpng375.png'
+        1920: './img/mainpng1920.png',
+        1366: './img/mainpng1366.png',
+        1194: './img/mainpng1194.png',
+        834: './img/mainpng834.png',
+        375: './img/mainpng375.png'
     },
     who: {
-        1920: 'img/who1920.svg',
-        1366: 'img/who1366.svg',
-        1194: 'img/who1194.svg',
-        834: 'img/who834.svg',
-        375: 'img/who375.svg'
+        1920: './img/who1920.svg',
+        1366: './img/who1366.svg',
+        1194: './img/who1194.svg',
+        834: './img/who834.svg',
+        375: './img/who375.svg'
     }
 };
 
